@@ -11,23 +11,25 @@ ul li{
   cursor: pointer;
   opacity: 0.9;
   transition: background 0.2s;
-  height: 50px;
-  
-  flex-grow: 1;
   display: flex;
+  flex:1;
+  height: 50px;
   align-items: center;
   justify-content: center;
+  
 }
 ul li:hover{
   opacity:1;
   background-color:#EDC280;
  
 }
-ul li a{
+.menu ul li a{
   font-weight:bold;
   text-transform: uppercase;
   font-size: 0.9rem;
   color:#eee;
+  
+  
 
 }
 img{
